@@ -1,0 +1,50 @@
+{
+  "name": "cave",
+  "displayName": "cave",
+  "description": "An dark black night mode theme by ascen",
+  "version": "0.0.1",
+  "icon": "./images/cave.jpg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anascen/cave/issues"
+  },
+  "homepage": "https://github.com/anascen/cave",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anascen/cave"
+  },
+  "author": {
+    "name": "ascen"
+  },
+  "keywords": [
+    "dark",
+    "dark mode",
+    "night mode",
+    "night",
+    "black mode",
+    "black theme",
+    "dark theme",
+    "night theme",
+    "black",
+    "night owl",
+    "github",
+    "github copilot",
+    "tabnine",
+    "dracula"
+  ],
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "cave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ascen-cave-dark.json"
+      }
+    ]
+  }
+}
