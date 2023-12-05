@@ -3,6 +3,7 @@
   "displayName": "cave",
   "description": "An dark black night mode theme by ascen",
   "version": "0.0.1",
+  "publisher": "ascen",
   "icon": "./images/cave.jpg",
   "license": "MIT",
   "bugs": {
