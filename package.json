@@ -2,7 +2,7 @@
     "name": "cave",
     "displayName": "cave",
     "description": "An dark black night mode theme by ascen",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "ascen",
     "icon": "./images/cave.jpg",
     "license": "MIT",
@@ -63,11 +63,11 @@
         "prettier": "^3.1.0"
     },
     "scripts": {
-        "prepare": "awesome install"
+        "prepare": "awesome install",
+        "postversion": "vsce publish"
     },
     "lint-staged": {
         "**/*.json": "prettier --write --ignore-unknown",
-        "**/**/*.json": "prettier --write --ignore-unkn",
-        "**/**/**/*.json": "prettier --write --ignore-unkn"
+        "**/**/*.json": "prettier --write --ignore-unkn"
     }
 }
