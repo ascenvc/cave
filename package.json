@@ -1,60 +1,73 @@
 {
-  "name": "cave",
-  "displayName": "cave",
-  "description": "An dark black night mode theme by ascen",
-  "version": "0.0.2",
-  "publisher": "ascen",
-  "icon": "./images/cave.jpg",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anascen/cave/issues"
-  },
-  "homepage": "https://github.com/anascen/cave",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/anascen/cave"
-  },
-  "author": {
-    "name": "ascen"
-  },
-  "keywords": [
-    "dark",
-    "dark mode",
-    "night mode",
-    "night",
-    "black mode",
-    "black theme",
-    "dark theme",
-    "night theme",
-    "black",
-    "night owl",
-    "github",
-    "ascen",
-    "cave",
-    "ascen cave",
-    "ascen.cave",
-    "ascen-cave",
-    "ascen dark theme",
-    "ascen dark mode",
-    "cave dark mode",
-    "cave dark theme",
-    "github copilot",
-    "tabnine",
-    "dracula"
-  ],
-  "engines": {
-    "vscode": "^1.84.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "cave",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ascen-cave-dark.json"
-      }
-    ]
-  }
+    "name": "cave",
+    "displayName": "cave",
+    "description": "An dark black night mode theme by ascen",
+    "version": "0.0.3",
+    "publisher": "ascen",
+    "icon": "./images/cave.jpg",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/anascen/cave/issues"
+    },
+    "homepage": "https://github.com/anascen/cave",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anascen/cave"
+    },
+    "author": {
+        "name": "ascen"
+    },
+    "keywords": [
+        "dark",
+        "dark mode",
+        "night mode",
+        "night",
+        "black mode",
+        "black theme",
+        "dark theme",
+        "night theme",
+        "black",
+        "night owl",
+        "github",
+        "ascen",
+        "cave",
+        "ascen cave",
+        "ascen.cave",
+        "ascen-cave",
+        "ascen dark theme",
+        "ascen dark mode",
+        "cave dark mode",
+        "cave dark theme",
+        "github copilot",
+        "tabnine",
+        "dracula"
+    ],
+    "engines": {
+        "vscode": "^1.84.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "cave",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ascen-cave-dark.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@ascen/awesome": "^1.1.3",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.1.0"
+    },
+    "scripts": {
+        "prepare": "awesome install"
+    },
+    "lint-staged": {
+        "**/*.json": "prettier --write --ignore-unknown",
+        "**/**/*.json": "prettier --write --ignore-unkn",
+        "**/**/**/*.json": "prettier --write --ignore-unkn"
+    }
 }
